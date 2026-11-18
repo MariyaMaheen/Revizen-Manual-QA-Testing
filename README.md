@@ -45,7 +45,7 @@ GitHub| Project documentation and version control
 
 ## Test Execution Summary
 
-A total of 38 test scenarios were executed across the selected application modules.
+A total of 36 test scenarios were executed across the selected application modules.
 
 Individual test execution results, including Pass/Fail status and actual observations, are documented in the test case spreadsheet.
 
