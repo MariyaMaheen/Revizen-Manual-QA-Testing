@@ -6,6 +6,19 @@ Testing Project Preview
 
 "Revizen QA Testing Preview" (assets/revizen-qa-preview.png)
 
+## **Bug Evidence**
+
+### focus issue while typing
+![Login Bug](https://github.com/MariyaMaheen/Revizen-Manual-QA-Testing/blob/main/j2.png)
+
+### Signup Issue
+![Signup Bug](https://github.com/MariyaMaheen/Revizen-Manual-QA-Testing/blob/main/j3.png)
+
+### Large PDF Upload Issue
+![PDF Upload Bug](https://github.com/MariyaMaheen/Revizen-Manual-QA-Testing/blob/main/j4.png)
+![PDF Upload Bug (2)](https://github.com/MariyaMaheen/Revizen-Manual-QA-Testing/blob/main/j5.png)
+
+
 ## Project Overview
 
 Revizen is an AI-powered study platform that allows users to interact with uploaded learning materials through document-based question answering, quizzes, summaries, and flashcards.
