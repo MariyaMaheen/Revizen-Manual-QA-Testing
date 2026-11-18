@@ -1,103 +1,68 @@
 Revizen – Manual QA Testing
 
-Project Overview
+A manual software testing project focused on evaluating the functionality, usability, and reliability of Revizen, an AI-powered study platform. This project covers test case design, test execution, defect identification, and bug tracking using Excel and Jira.
 
-This repository documents the manual testing activities performed on Revizen, an AI-powered study platform designed to help users interact with their uploaded learning materials through features such as document-based Q&A, quizzes, summaries, and flashcards.
+🧪 Testing Project Preview
 
-The objective of this project was to evaluate the application's functionality, identify defects, verify expected behavior, and document testing results using manual testing techniques.
+"Revizen QA Testing Preview" (assets/revizen-qa-preview.png)
 
-Project Details
+📋 Testing Overview
 
-Category| Details
-Project Name| Revizen
-Testing Type| Manual Testing
-Testing Approach| Functional Testing
-Test Cases Executed| 38
-Bug Tracking Tool| Jira
-Test Case Documentation| Microsoft Excel / Google Sheets
-Test Evidence| Screenshots and Screen Recordings
+Manual testing was performed across 36 test scenarios covering the major modules of the Revizen application.
 
-Testing Scope
+🔍 Modules Tested
 
-The following application modules were covered during testing:
+- Login & Authentication
+- User Signup
+- PDF Upload
+- AI Chat (RAG-based responses)
+- Quiz Generation
+- Summary Generation
+- Flashcards
 
-- Login: Valid and invalid login credentials, input validation, and password masking.
-- Signup: Account registration, input validation, and duplicate account handling.
-- PDF Upload: File uploading, file size handling, and document compatibility.
-- AI Chat: Document-based question-and-answer functionality.
-- Quiz: Quiz generation and functionality.
-- Summary: Document summarization functionality.
-- Flashcards: Flashcard generation and functionality.
+🛠️ Tools Used
 
-Testing Activities Performed
+- Microsoft Excel – Test Case Documentation
+- Jira – Bug Reporting and Tracking
+- Google Chrome – Browser Testing
+- GitHub – Project Documentation
 
-- Reviewed application functionality and expected behavior.
-- Identified test scenarios based on application features.
-- Designed and documented detailed test cases.
-- Performed positive and negative testing.
-- Executed test cases and recorded actual results.
-- Compared actual results against expected results.
-- Identified and documented application defects.
-- Created Jira bug tickets with reproduction steps.
-- Attached screenshots and screen recordings as supporting evidence.
+📊 Testing Activities
 
-Tools & Technologies
+- Test Scenario Identification
+- Test Case Design
+- Positive and Negative Testing
+- Test Execution
+- Expected vs Actual Result Verification
+- Defect Identification and Reporting
+- Bug Tracking using Jira
 
-Tool| Purpose
-Jira| Bug reporting and tracking
-Microsoft Excel| Test case documentation and execution tracking
-Google Sheets| Test case management
-Google Chrome| Application testing
-GitHub| Project documentation and portfolio
+🐞 Bug Tracking
 
-Test Execution Summary
+Identified defects were documented in Jira with:
 
-A total of 38 test scenarios were executed across the selected application modules.
-
-Test execution results, including Pass/Fail status and actual observations, are maintained in the test case spreadsheet.
-
-Defect Reporting
-
-Identified defects were documented and reported through Jira.
-
-Each bug report includes:
-
-- Bug title and description
+- Bug Summary
 - Preconditions
-- Steps to reproduce
-- Expected result
-- Actual result
-- Severity and priority
-- Supporting screenshots or screen recordings
+- Steps to Reproduce
+- Expected Result
+- Actual Result
+- Severity and Priority
+- Screenshots and Screen Recordings
 
-Reported defects remain open pending developer fixes and subsequent retesting.
+📁 Project Deliverables
 
-Project Deliverables
+- 38 Test Scenarios
+- Test Case Spreadsheet
+- Test Execution Results
+- Jira Bug Reports
+- Testing Evidence
 
-- Detailed manual test case spreadsheet.
-- Test execution results.
-- Jira bug reports.
-- Screenshots and screen recordings of identified defects.
-- QA testing documentation.
+📌 Project Status
 
-Learning Outcomes
+Initial Manual Testing Cycle: Completed
 
-Through this project, I gained practical experience in:
+Reported defects are currently open and awaiting fixes. Retesting and regression testing are pending developer fixes.
 
-- Understanding the Software Testing Life Cycle (STLC).
-- Writing test scenarios and test cases.
-- Performing functional, positive, and negative testing.
-- Executing test cases and identifying defects.
-- Understanding bug reporting and defect life cycle.
-- Using Jira for defect tracking.
-- Maintaining structured QA documentation.
+🎯 Key Learning Outcomes
 
-Project Status
-
-Initial manual testing cycle completed.
-
-Reported defects are currently open and pending fixes. Retesting and regression testing will be performed once fixes are available.
-
----
-
-Disclaimer: Revizen is the application used for this independent QA practice project. This repository documents testing observations and activities performed for learning and portfolio purposes.
+Gained practical experience in manual QA testing, STLC, test case documentation, test execution, defect reporting, and Jira-based bug tracking.
